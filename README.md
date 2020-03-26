@@ -1,5 +1,6 @@
 # Scrimba-Binary_Search_Algorithms
 Various approaches to binary search algorithm.
+This course was a good preview into topics of: CS, recursion, data structures, and refactoring. 
 
 ### Standard_binary_search takeaways:
 1. Works but leaves room for "off by one" errors. 
@@ -29,4 +30,8 @@ Various approaches to binary search algorithm.
 2. Go for the simple solution first then refine and make more efficient.
 
 ### ArrayPartition_binary_search takeaways:
-1. 
+1. The array partition separates out the original partion into left, right and middle sections.
+2. ***I received NAN as a result from testing...***
+
+### Wrap Up takeaway:
+1. Continue to create more and more efficient patterns and improve efficiency. 
