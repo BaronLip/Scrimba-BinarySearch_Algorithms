@@ -1,8 +1,8 @@
-/* Typical comparison function */
 const myArray = [1,2,3,4,5,6,7,8,9,10]
 
 const myElement = 6
 
+/* Typical comparison function */
 let defaultCompare = (a, b) => (a > b ? 1 : a < b ? -1 : 0);
 
 let binarySearchWithArraySplitting = (array, element, compare = defaultCompare) => {
@@ -58,5 +58,7 @@ binarySearchWithArraySplitting(myArray, myElement, defaultCompare)
 
 //     const subIndex = binarySearchWithArraySplitting(array.slice(left, right), element, compare);
 
-//     return left + subIndex;
+//     return subIndex === -1 
+//     ? -1
+//     : left + subIndex;
 // };

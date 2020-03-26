@@ -21,5 +21,12 @@ Various approaches to binary search algorithm.
 3. Using destructuring, "newbounds" now become left and right again.
 4. The reason for the subindex is, because the element's index in the original array will change based on each passing of the truncated array, 
 5. The BigO(n) is now increased because each time the array is sliced, new memory is utilized.
-6. ***Testing with custom array and element did not produce the correct result everytime. There are off by something numbers.***
-7.  
+6. ***Testing with the number 8 produced an incorrect answer. Other numbers work fine.***
+7. ***Const remains the initial value of the first pass. Yet, the following passes complete without reassigning???***
+
+### ArrayView_binary_search takeaways:
+1. By creating an ArrayView the efficiency improved by using a new data structure.
+2. Go for the simple solution first then refine and make more efficient.
+
+### ArrayPartition_binary_search takeaways:
+1. 
